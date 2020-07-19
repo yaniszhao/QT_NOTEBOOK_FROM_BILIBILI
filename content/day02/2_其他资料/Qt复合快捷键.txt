@@ -1,0 +1,29 @@
+QString s = "";
+switch(e->modifiers()){
+
+case Qt::ControlModifier:
+	s = "Ctrl+";
+	break;
+case Qt::AltModifier:
+	s = "Alt+";
+	break;
+}
+
+switch(e->key())
+{
+case Qt::Key_Left:
+	s += "Left_Key Press";
+	break;
+case Qt::Key_Right:
+	s += "Rigth_Key Press";
+	break;
+case Qt::Key_Up:
+	s += "Up_Key Press";
+	break;
+case Qt::Key_Down:
+	s += "Down_Key Press";
+	break;
+case Qt::Key_Z:
+	s += "Z_Key Press";
+	break;
+}
