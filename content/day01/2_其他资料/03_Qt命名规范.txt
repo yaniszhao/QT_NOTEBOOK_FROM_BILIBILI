@@ -1,0 +1,22 @@
+1) 类名：单词首字母大小，单词和单词之间直接连接，无需连接字符
+如：MyClass，QPushButton
+class MainWindow
+{
+	
+};
+
+
+2) 函数名字，变量名：第二个单词开始（不是从第一个单词开始），首字母大写，单词和单词之间直接连接，无需连接字符
+如：
+void setFlag();
+QString getText();
+bool isDraw;
+
+3) Qt中内置的类型，头文件和类命名同名。
+如：
+#include <QString>
+QSring str;
+
+#include <QWidget>
+QWidget w;
+
